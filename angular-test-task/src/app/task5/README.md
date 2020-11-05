@@ -1,0 +1,1 @@
+#5: Please provide your approach to setup a multiple themes structure and build the app with multiple themes and allow user to change any theme in the list we provided

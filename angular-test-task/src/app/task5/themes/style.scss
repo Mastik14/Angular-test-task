@@ -1,0 +1,10 @@
+@import "themes";
+@import "mixins";
+
+.container {
+    @include themify($themes) {
+      color: themed('textColor');  
+      background-color: themed('backgroundColor');  
+    }
+}
+

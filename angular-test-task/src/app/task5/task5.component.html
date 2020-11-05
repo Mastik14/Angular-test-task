@@ -1,0 +1,24 @@
+<div [ngClass]="theme">
+  <div class="container">
+
+    <div class="vh-100">
+      
+      <i class="fa fa-filter" aria-hidden="true"></i>
+      <i class="fa fa-rss" aria-hidden="true"></i>
+      <i class="fa fa-battery-three-quarters float-right" aria-hidden="true"></i>
+
+      <h4 class="text-center">Task 5</h4>
+
+      <div class="input-group">
+        <select class="custom-select" [(ngModel)]='select' (change)="changeTheme($event)">
+          <option selected>Choose Theme...</option>
+          <option value="theme-light">Light</option>
+          <option value="theme-dark">Dark</option>
+          <option value="theme-red">Red</option>
+          <option value="theme-blue">Blue</option>
+        </select>
+      </div>
+    </div>
+
+  </div>
+</div>
