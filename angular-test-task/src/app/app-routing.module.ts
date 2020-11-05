@@ -10,7 +10,7 @@ const routes: Routes = [
     path: 'task2', loadChildren: () => import('./task2/task2.module').then(m => m.Task2Module)
   },
   {
-    path: 'task3', component: Task3Component
+    path: 'task3', loadChildren: () => import('./task3/task3.module').then(m => m.Task3Module)
   },
   {
     path: 'task4', loadChildren: () => import('./task4/task4.module').then(m => m.Task4Module)
